@@ -53,5 +53,10 @@ namespace Note.Basic
         {
             _03Object.Run();
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            _04Delegate.Run();
+        }
     }
 }
