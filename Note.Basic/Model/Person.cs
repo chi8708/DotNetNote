@@ -21,6 +21,16 @@ namespace Note.Basic
         {
             return (Person)this.MemberwiseClone();
         }
+
+        public void Print()
+        {
+            Console.WriteLine("Name:{0}, Age:{1}, Address:{2}", this.Name, this.Age, this.Address.Street);
+        }
+
+        public virtual void Print2()
+        {
+            Console.WriteLine("Name:{0}, Age:{1}, Address:{2}", this.Name, this.Age, this.Address.Street);
+        }
     }
 
     public class Address
@@ -35,6 +45,16 @@ namespace Note.Basic
         public Student() 
         {
             this.School = "严总学院";
+        }
+
+        public new void Print()
+        {
+            Console.WriteLine("Name:{0}, Age:{1}, Address:{2}", this.Name, this.Age, this.Address.Street);
+        }
+
+        public override void Print2()
+        {
+            Console.WriteLine("Name:{0}, Age:{1}, Address:{2}", this.Name, this.Age, this.Address.Street);
         }
         public string School { get; set; }
     }
