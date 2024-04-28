@@ -34,6 +34,24 @@ namespace Note.Basic
             CopyDemo.Copy2();//深拷贝。
         }
 
-       
+        /// <summary>
+        /// 数据类型
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            _02TypeInfo.Run();
+        }
+
+        /// <summary>
+        /// 面向对象
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            _03Object.Run();
+        }
     }
 }

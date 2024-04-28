@@ -8,12 +8,13 @@ namespace Note.Basic
 {
     public class Person
     {
+        public static string ClassName = "Person";
         public Person()
         {
             this.Address = new Address();
         }
         public string Name { get; set; }
-         public int Age { get; set; }
+        public int Age { get; set; }
         public Address Address { get; set; }
 
         public Person Clone()
@@ -26,5 +27,15 @@ namespace Note.Basic
     {
         public string Street { get; set; }
         public string City { get; set; }
+    }
+
+    public class Student : Person
+    {
+        public  static string ClassName ="Student";
+        public Student() 
+        {
+            this.School = "严总学院";
+        }
+        public string School { get; set; }
     }
 }
