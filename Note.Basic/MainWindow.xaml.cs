@@ -28,7 +28,7 @@ namespace Note.Basic
 
 
         //对象拷贝
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_1(object sender, RoutedEventArgs e)
         {
             CopyDemo.Copy1();//浅拷贝。
             CopyDemo.Copy2();//深拷贝。
@@ -39,7 +39,7 @@ namespace Note.Basic
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Button_Click_1(object sender, RoutedEventArgs e)
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             _02TypeInfo.Run();
         }
@@ -49,14 +49,20 @@ namespace Note.Basic
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Button_Click_2(object sender, RoutedEventArgs e)
+        private void Button_Click_3(object sender, RoutedEventArgs e)
         {
             _03Object.Run();
         }
 
-        private void Button_Click_3(object sender, RoutedEventArgs e)
+        private void Button_Click_4(object sender, RoutedEventArgs e)
         {
             _04Delegate.Run();
         }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            _05event.Run();
+        }
+
     }
 }

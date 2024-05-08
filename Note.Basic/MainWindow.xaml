@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="468" Width="820">
     <Grid Margin="0,0,0,-42" HorizontalAlignment="Left" Width="830">
-        <Button Content="对象拷贝" HorizontalAlignment="Left" Margin="45,21,0,0" VerticalAlignment="Top" Click="Button_Click"/>
-        <Button Content="数据类型" HorizontalAlignment="Left" Margin="114,21,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
-        <Button Content="面向对象" HorizontalAlignment="Left" Margin="189,21,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
-        <Button Content="委托" HorizontalAlignment="Left" Margin="264,21,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.157,0.567" Click="Button_Click_3"/>
+        <Button Content="对象拷贝" HorizontalAlignment="Left" Margin="45,21,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="数据类型" HorizontalAlignment="Left" Margin="114,21,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
+        <Button Content="面向对象" HorizontalAlignment="Left" Margin="189,21,0,0" VerticalAlignment="Top" Click="Button_Click_3"/>
+        <Button Content="委托" HorizontalAlignment="Left" Margin="264,21,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.157,0.567" Click="Button_Click_4"/>
+        <Button Content="事件" HorizontalAlignment="Left" Margin="313,21,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.157,0.567" Click="Button_Click_5"/>
 
     </Grid>
 </Window>
