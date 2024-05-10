@@ -64,5 +64,16 @@ namespace Note.Basic
             _05event.Run();
         }
 
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            _07Task.Run();
+        }
+
+
     }
 }
