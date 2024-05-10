@@ -5,3 +5,5 @@
 - 03Object 面向对象
 - 04Delegate 委托 
 - 05Event 事件
+- 06Thread 线程
+- 07Task 异步
