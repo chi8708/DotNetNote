@@ -68,5 +68,12 @@ namespace Note.Basic
         {
             _06Thread.Run();
         }
+
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            _07Task.Run();
+        }
+
     }
 }
