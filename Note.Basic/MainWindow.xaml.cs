@@ -80,9 +80,9 @@ namespace Note.Basic
             _08Generic.Run();
         }
 
-        private void Button_Click_9(object sender, RoutedEventArgs e)
+        private void Button_Click_10(object sender, RoutedEventArgs e)
         {
-            _09Reflection.Run();
+            _10Reflection.Run();
         }
     }
 }

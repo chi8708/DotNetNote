@@ -9,7 +9,7 @@ namespace Note.Basic
 {
    
     //反射
-    internal class _09Reflection
+    internal class _10Reflection
     {
         public static void Run()
         {

@@ -15,6 +15,6 @@
         <Button Content="线程" HorizontalAlignment="Left" Margin="363,21,0,0" VerticalAlignment="Top" Click="Button_Click_6"/>
         <Button Content="Task" HorizontalAlignment="Left" Margin="413,21,0,0" VerticalAlignment="Top" Click="Button_Click_7"/>
         <Button Content="泛型" HorizontalAlignment="Left" Margin="463,21,0,0" VerticalAlignment="Top" Click="Button_Click_8"/>
-        <Button Content="反射" HorizontalAlignment="Left" Margin="513,21,0,0"  VerticalAlignment="Top" Click="Button_Click_9"/>
+        <Button Content="反射" HorizontalAlignment="Left" Margin="513,21,0,0"  VerticalAlignment="Top" Click="Button_Click_10"/>
     </Grid>
 </Window>
