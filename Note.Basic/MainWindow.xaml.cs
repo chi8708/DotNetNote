@@ -84,5 +84,10 @@ namespace Note.Basic
         {
             _10Reflection.Run();
         }
+
+        private void Button_Click_11(object sender, RoutedEventArgs e)
+        {
+            _11Attribute.Run();
+        }
     }
 }
